@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "mymodnayan135:item/teleportation_wand"
+  }
+}
