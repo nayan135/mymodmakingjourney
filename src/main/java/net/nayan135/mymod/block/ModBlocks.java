@@ -24,8 +24,16 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST_CLUSTER) ));
 
-    public static final RegistryObject<Block> RAW_TEST_BLOCK = registerBlock("raw_test_block",
-            ()-> new Block(BlockBehaviour.Properties.of().strength(4.0f).requiresCorrectToolForDrops().sound(SoundType.SNOW)));
+
+    // Nayan blocks
+    public static final RegistryObject<Block> NAYAN = registerBlock("nayan",
+            () -> new Block(BlockBehaviour.Properties.of().strength(3.0f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST_CLUSTER)));
+
+    public static final RegistryObject<Block> NAYAN1 = registerBlock("nayan1",
+            () -> new Block(BlockBehaviour.Properties.of().strength(3.0f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST_CLUSTER)));
+
+    public static final RegistryObject<Block> NAYAN2 = registerBlock("nayan2",
+            () -> new Block(BlockBehaviour.Properties.of().strength(3.0f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST_CLUSTER)));
 
 
 

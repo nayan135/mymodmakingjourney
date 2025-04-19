@@ -1,6 +1,11 @@
 {
-  "item.mymodnayan135.nayan": "NAYAN GEMMM",
- "item.mymodnayan135.raw_nayan": "RAW NAYAN",
+  "block.mymodnayan135.nayan": "NAYAN1",
+  "block.mymodnayan135.nayan1": "NAYAN2",
+  "block.mymodnayan135.nayan2": "NAYAN3",
   "block.mymodnayan135.test_block": "NAYAN BLOCK",
-  "block.mymodnayan135.raw_test_block": "RAW NAYAN BLOCK"
+  "item.mymodnayan135.auto_smelt_pickaxe": "Auto-Smelt Pickaxe",
+  "item.mymodnayan135.teleportation_wand": "Teleportation Wand",
+  "item.mymodnayan135.time_freeze_orb": "Time-Freezing Orb",
+  "creativetab.nayan_tab": "Nayan Mod",
+  "creativetab.nayan_blocks_tab": "Nayan Blocks"
 }
