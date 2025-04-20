@@ -19,7 +19,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.nayan135.mymod.block.ModBlocks;
 import net.nayan135.mymod.item.ModCreativeModeTabs;
 import net.nayan135.mymod.item.moditems;
-import net.nayan135.sound.ModSounds;
+import net.nayan135.mymod.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file natraaaa gayooooo sabai mehanat pani maa
@@ -46,12 +46,13 @@ public class MyMod
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
+// k vanam raa khaiii
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
         moditems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        //
         ModCreativeModeTabs.register(modEventBus);
         ModSounds.register(modEventBus);
         // Register the item to a creative tab

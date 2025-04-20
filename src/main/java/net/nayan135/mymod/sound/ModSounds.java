@@ -1,4 +1,4 @@
-package net.nayan135.sound;
+package net.nayan135.mymod.sound;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
@@ -8,7 +8,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nayan135.mymod.MyMod;
-import net.minecraftforge.registries.ForgeRegistries;
 
 
 public class ModSounds {

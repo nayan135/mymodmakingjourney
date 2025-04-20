@@ -1,6 +1,5 @@
 package net.nayan135.mymod.block;
 
-import com.google.common.eventbus.EventBus;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -12,7 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.nayan135.mymod.MyMod;
 import net.nayan135.mymod.item.moditems;
 import net.minecraftforge.registries.RegistryObject;
-import net.nayan135.sound.ModSounds;
+import net.nayan135.mymod.sound.ModSounds;
 
 import java.util.function.Supplier;
 
@@ -38,9 +37,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().strength(3.0f).requiresCorrectToolForDrops().sound(ModSounds.BLOCKSS_Sound)));
 
     //just being boredd
-    public static final RegistryObject<Block> Occurance = registerBlock("occurance",
+    public static final RegistryObject<Block> OCCURANCE = registerBlock("occurance",
             () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.TRIAL_SPAWNER)));
-
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
