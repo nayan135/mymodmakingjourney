@@ -12,10 +12,10 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 
 public class ModSounds {
-
+//randomness credit: NAYAN135
 public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
         DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, MyMod.MOD_ID);
-
+//custom sounf defineeee //just checking how you doing?
 public static final RegistryObject<SoundEvent> NEW_ONE = registerSoundEvent("new_one");
 public static final RegistryObject<SoundEvent> NEW_ONE2 = registerSoundEvent("new_one2");
 public static final RegistryObject<SoundEvent> NEW_ONE3 = registerSoundEvent("new_one3");
