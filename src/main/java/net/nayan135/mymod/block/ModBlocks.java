@@ -12,6 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.nayan135.mymod.MyMod;
 import net.nayan135.mymod.item.moditems;
 import net.minecraftforge.registries.RegistryObject;
+import net.nayan135.sound.ModSounds;
 
 import java.util.function.Supplier;
 
@@ -27,13 +28,18 @@ public class ModBlocks {
 
     // Nayan blocks
     public static final RegistryObject<Block> NAYAN = registerBlock("nayan",
-            () -> new Block(BlockBehaviour.Properties.of().strength(3.0f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST_CLUSTER)));
+            () -> new Block(BlockBehaviour.Properties.of().strength(3.0f).requiresCorrectToolForDrops().sound(ModSounds.BLOCKSS_Sound)));
+ 
 
     public static final RegistryObject<Block> NAYAN1 = registerBlock("nayan1",
-            () -> new Block(BlockBehaviour.Properties.of().strength(3.0f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST_CLUSTER)));
+            () -> new Block(BlockBehaviour.Properties.of().strength(3.0f).requiresCorrectToolForDrops().sound(ModSounds.BLOCKSS_Sound)));
 
     public static final RegistryObject<Block> NAYAN2 = registerBlock("nayan2",
-            () -> new Block(BlockBehaviour.Properties.of().strength(3.0f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST_CLUSTER)));
+            () -> new Block(BlockBehaviour.Properties.of().strength(3.0f).requiresCorrectToolForDrops().sound(ModSounds.BLOCKSS_Sound)));
+
+    //just being boredd
+    public static final RegistryObject<Block> Occurance = registerBlock("occurance",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.TRIAL_SPAWNER)));
 
 
 

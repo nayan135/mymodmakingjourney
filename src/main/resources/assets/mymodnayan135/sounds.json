@@ -1,0 +1,37 @@
+{
+  "new_one": {
+    "subtitle": "sounds.mymodnayan135.new_one",
+    "sound":[
+  "mymodnayan135:new_one"
+
+]
+  },
+  "new_one2": {
+    "subtitle": "sounds.mymodnayan135.new_one2",
+    "sound":[
+      "mymodnayan135:new_one2"
+
+    ]
+  },
+  "new_one3": {
+    "subtitle": "sounds.mymodnayan135.new_one3",
+    "sound":[
+      "mymodnayan135:new_one3"
+
+    ]
+  },
+  "new_one4": {
+    "subtitle": "sounds.mymodnayan135.new_one4",
+    "sound":[
+      "mymodnayan135:new_one4"
+
+    ]
+  },
+  "new_one5": {
+    "subtitle": "sounds.mymodnayan135.new_one5",
+    "sound":[
+      "mymodnayan135:new_one5"
+
+    ]
+  }
+}

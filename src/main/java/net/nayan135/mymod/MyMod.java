@@ -1,5 +1,7 @@
 package net.nayan135.mymod;
 
+
+// adding random comments to understand for future use
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -17,9 +19,12 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.nayan135.mymod.block.ModBlocks;
 import net.nayan135.mymod.item.ModCreativeModeTabs;
 import net.nayan135.mymod.item.moditems;
+import net.nayan135.sound.ModSounds;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
+// The value here should match an entry in the META-INF/mods.toml file natraaaa gayooooo sabai mehanat pani maa
+//btw mod is workingggg
+//helllloo
 @Mod(MyMod.MOD_ID)
 public class MyMod
 {
@@ -27,6 +32,11 @@ public class MyMod
     public static final String MOD_ID = "mymodnayan135";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
+
+
+
+
+
 
     // Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
 
@@ -43,6 +53,7 @@ public class MyMod
         moditems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
+        ModSounds.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -86,3 +97,4 @@ if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
         }
     }
 }
+
