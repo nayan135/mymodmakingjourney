@@ -38,9 +38,22 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().strength(3.0f).requiresCorrectToolForDrops().sound(ModSounds.BLOCKSS_Sound)));
 
     //just being boredd
-    public static final RegistryObject<Block> Occurance = registerBlock("occurance",
-            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.TRIAL_SPAWNER)));
 
+    public static final RegistryObject<Block> RANDOM_BLOCK = registerBlock("random_block",
+            () -> new Block(BlockBehaviour.Properties
+                    .of()
+                    .strength(3.0f)
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(state -> 12)
+                    .sound(ModSounds.BLOCKSS_Sound)));
+
+    public static final RegistryObject<Block> LOOKS_COOL = registerBlock("looks_cool",
+            () -> new Block(BlockBehaviour.Properties
+                    .of()
+                    .strength(3.0f)
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(state -> 12)
+                    .sound(ModSounds.BLOCKSS_Sound)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

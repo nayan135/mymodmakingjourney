@@ -6,9 +6,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.nayan135.mymod.MyMod;
 import net.minecraftforge.registries.RegistryObject;
-import net.nayan135.mymod.item.TeleportationWandItem;
-import net.nayan135.mymod.item.AutoSmeltPickaxeItem;
-import net.nayan135.mymod.item.TimeFreezeOrbItem;
 
 public class moditems {
     public static final DeferredRegister<Item> ITEMS =
@@ -25,6 +22,12 @@ public class moditems {
 
     public static final RegistryObject<Item> TIME_FREEZE_ORB = ITEMS.register("time_freeze_orb",
             () -> new TimeFreezeOrbItem(new Item.Properties().stacksTo(16)));
+
+
+    public static final RegistryObject<Item> BREAD = ITEMS.register("bread",
+            () -> new BreadItem(new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> PIECE = ITEMS.register("piece",
+            () -> new PIECE(new Item.Properties().stacksTo(16)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

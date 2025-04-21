@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "mymodnayan135:nayan" },
+    { "item": "mymodnayan135:nayan2" },
+    { "item": "mymodnayan135:nayan3" }
+  ],
+  "result": {
+    "item": "mymodnayan135:piece",
+    "count": 7
+  }
+}
