@@ -24,12 +24,16 @@ public class ModCreativeModeTabs {
                         pOutput.accept(moditems.AUTO_SMELT_PICKAXE.get());
                         pOutput.accept(moditems.TELEPORTATION_WAND.get());
                         pOutput.accept(moditems.TIME_FREEZE_ORB.get());
+                        pOutput.accept(moditems.BREAD.get());
+                        pOutput.accept(moditems.PIECE.get());
 
                         // Blocks
                         pOutput.accept(ModBlocks.TEST_BLOCK.get());
                         pOutput.accept(ModBlocks.NAYAN.get());
                         pOutput.accept(ModBlocks.NAYAN1.get());
                         pOutput.accept(ModBlocks.NAYAN2.get());
+                        pOutput.accept(ModBlocks.RANDOM_BLOCK.get());
+                        pOutput.accept(ModBlocks.LOOKS_COOL.get());
                     })
                     .build());
 

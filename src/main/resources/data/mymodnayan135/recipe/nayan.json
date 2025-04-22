@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "N N",
+    "NNN",
+    "N N"
+  ],
+  "key": {
+    "N": {
+      "item": "mymodnayan135:piece"
+    }
+  },
+  "result": {
+    "item": "mymodnayan135:nayan",
+    "count": 1
+  }
+}
