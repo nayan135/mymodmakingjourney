@@ -62,5 +62,3 @@ Blink & Break (mymodnayan135) is a Minecraft Forge mod currently in BETA that ad
 ## Credits
 Created by Nayan135 as a Minecraft modding project.
 
-## License
-All rights reserved.
