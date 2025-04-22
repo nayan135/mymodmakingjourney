@@ -1,7 +1,7 @@
-# Blink & Break - Minecraft Forge Mod (Beta)
+# Blink & Break - Minecraft Forge Mod
 
 ## Description
-Blink & Break (mymodnayan135) is a Minecraft Forge mod currently in BETA that adds various custom items and blocks with special abilities to enhance gameplay. This mod introduces magical tools and items that provide unique functionality such as teleportation, time manipulation, and auto-smelting.
+Blink & Break (mymodnayan135) is a Minecraft Forge mod that adds various custom items and blocks with special abilities to enhance gameplay. This mod introduces magical tools and items that provide unique functionality such as teleportation, time manipulation, and auto-smelting.
 
 ## Version Compatibility
 - Minecraft: 1.21.1
@@ -28,12 +28,12 @@ Blink & Break (mymodnayan135) is a Minecraft Forge mod currently in BETA that ad
   - Effect lasts for 10 seconds
   - 3-second cooldown between uses
   - Consumed on use (unless in creative mode)
+    -**PIECE**- : IT itself is not useful but can be used to create custom items
 
-- **Nayan and Raw Nayan**: Basic custom items added to the ingredients tab.
-
-### Custom Blocks
-- **Test Block**: A custom block with amethyst cluster sound properties.
-- **Raw Test Block**: A custom block with snow sound properties.
+### Custom Items
+-**NAYAN**: Added block named nayan that reflects 3 letters A,N,Y
+-**Random_Block**:As its name suggest its a random block that shows propertly of different block
+-**LOOKS_COOL**: Its a block that looks cool at the light with better lighting effects
 
 ## Installation
 1. Make sure you have Minecraft Forge installed for the appropriate Minecraft version.
@@ -62,5 +62,3 @@ Blink & Break (mymodnayan135) is a Minecraft Forge mod currently in BETA that ad
 ## Credits
 Created by Nayan135 as a Minecraft modding project.
 
-## License
-All rights reserved.
