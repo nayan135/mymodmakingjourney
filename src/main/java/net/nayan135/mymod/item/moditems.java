@@ -30,6 +30,7 @@ public class moditems {
             () -> new PIECE(new Item.Properties().stacksTo(16)));
 
     public static void register(IEventBus eventBus) {
+
         ITEMS.register(eventBus);
     }
 }

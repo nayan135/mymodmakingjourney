@@ -1,6 +1,5 @@
 package net.nayan135.mymod.block;
 
-import com.google.common.eventbus.EventBus;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -12,7 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.nayan135.mymod.MyMod;
 import net.nayan135.mymod.item.moditems;
 import net.minecraftforge.registries.RegistryObject;
-import net.nayan135.sound.ModSounds;
+import net.nayan135.mymod.sound.ModSounds;
 
 import java.util.function.Supplier;
 
@@ -39,6 +38,8 @@ public class ModBlocks {
 
     //just being boredd
 
+    
+
     public static final RegistryObject<Block> RANDOM_BLOCK = registerBlock("random_block",
             () -> new Block(BlockBehaviour.Properties
                     .of()
@@ -54,7 +55,6 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .lightLevel(state -> 12)
                     .sound(ModSounds.BLOCKSS_Sound)));
-
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
